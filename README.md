@@ -2,7 +2,9 @@
 
 NodeJs script to monitor for low gas fees and mint CHI tokens. Fetches gas price from etherscan and mints CHI tokens if price is below set threshold.
 
-This script might have bugs/errors that may cause you to lose funds - use at your own risk.
+Learn more about CHI gas tokens - https://medium.com/@1inch.exchange/1inch-introduces-chi-gastoken-d0bd5bb0f92b
+
+`This script might have bugs/errors that may cause you to lose funds - use at your own risk.`
 
 #### Config Setup
 
