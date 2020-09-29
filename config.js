@@ -8,8 +8,8 @@ const ETHERSCAN_PRICE_URL = "https://api.etherscan.io/api?module=stats&action=et
 const ETHERSCAN_ERC20_BAL_URL = "https://api.etherscan.io/api?module=account&action=tokenbalance&contractaddress=" + CHI_CONTRACT_ADDR + "&tag=latest&apikey="
 
 // config custom values
-const TOKENS_TO_MINT = 5 // number of tokens to mint in a single go - max is 140 |  https://medium.com/@1inch.exchange/1inch-introduces-chi-gastoken-d0bd5bb0f92b
-const TRIGGER_GAS_PRICE = 170 // mint below this gas price - in gwei
+const TOKENS_TO_MINT = 10 // number of tokens to mint in a single go - max is 140 |  https://medium.com/@1inch.exchange/1inch-introduces-chi-gastoken-d0bd5bb0f92b
+const TRIGGER_GAS_PRICE = 90 // mint below this gas price - in gwei
 const TIME_INTERVAL_IN_MIN = 20 // scan for gas price interval
 const MAX_CHI_BALANCE = 10 // if chi_balance > max, no more minting - set to large value for nonstop minting
 

@@ -19,7 +19,7 @@ exports.sendMintTx = async (sender, token_contract_addr, amount, pvt_key, gas_fe
       nonce: getNonce,
       from: sender,
       gasPrice: web3.utils.toHex(web3.utils.toWei(gas_fee_in_gwei, 'Gwei')),
-      gasLimit: web3.utils.toHex(3000000), // change as needed
+      gasLimit: web3.utils.toHex(300000), // change as needed
       to: token_contract_addr,
       value: '0x0',
       data: contract.methods.mint(amount).encodeABI()
